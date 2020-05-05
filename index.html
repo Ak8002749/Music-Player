@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="Width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+  <link type="text/css" href="design/home.css" rel="stylesheet">
+  <link type="text/css" href="design/navbar/navbar.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="designS/main/main.css">
+  <link rel="stylesheet" type="text/css" href="designS/main/playlist.css">
+  <link rel="stylesheet" type="text/css" href="designS/player/player.css">
+  <link rel="stylesheet" type="text/css" href="designS/aside/aside.css">
+  <title>Singer Page</title>
+</head>
+<body>
+  <!--- This section contains a nav bar-->
+      <!--todo Logo text correction -->
+      <nav class="nav-container">
+          <!-- This conatiner is the container which have logo , title ,text-->
+          <div class="logo nav-section-first">
+             <div class="align-center logo">
+              <!--todo : seperate the text with specific design-->
+                 <div class="music-player-logo"></div>
+                 <div class="title-music-player">Ninja <br>Studio</div>
+              </div>
+              <div class="fav">
+                  Favourites
+              </div>
+          </div>
+          <div class="nav-section-second">
+              <div class="input-decoration">
+                  <input type="text" placeholder="Search" class="search">
+                  <i class="material-icons" id="mic" >mic_none</i>
+                  <i class="material-icons" id="search-icon">search</i>
+              </div>
+              <div >
+                  <i class="material-icons" id="notification" >notifications</i>
+                  <div class="red-dot"></div>
+              </div>
+
+              <div class="profile-picture">
+
+              </div>
+          </div>
+
+      </nav>
+      <section class="player">
+        <div class="player-section">
+          <div class="player-section-profile">
+            
+          </div>
+          <div class="player-section-song">
+            <span style="font-size: 15px; ">Blue Eyes</span>
+            <span style="font-size: 12px; opacity: 0.6;">
+              Yo Yo
+            </span>
+          </div>
+          <div class="player-section-symbol">
+            <span><i class="material-icons" id="heart1">favorite_border</i></span>
+            <span><i class="fas fa-ban" id="ban"></i></span>
+          </div>
+          <div class="player-section-center">
+            <div class="player-buttons">
+              <div class="player-buttons-upper">
+                <i class="fas fa-random" id="random"></i>
+                <i class="fas fa-step-backward" id="backward"></i>
+                <i class="far fa-pause-circle"id="pause"></i>
+                <i class="fas fa-step-forward"id="forward"></i>
+                <i class="material-icons" id="repeat">repeat</i>
+
+              </div>
+              <div class="player-buttons-lower">
+                <div style="font-size: 10px;">1:04</div>
+                <div class="slidecontainer">
+                <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                </div>
+                <div style="font-size: 10px;"> 4:04</div>
+              </div>
+            </div>
+          </div>
+          <div class="player-section-right">
+            <div class="right-btn">
+              <i class="material-icons">list-music</i>
+              <i class="fas fa-podcast"></i>
+              
+            </div>
+          </div>              
+        </div>
+      </section>
+    <main class="main-container">
+      <section class="main-container-section">
+        <div class="card">
+          <div class="card-profile">
+            
+          </div>
+          <div class="card-description">
+            <div class="card-description-header"><div><h2>ColdPlay</h2></div><div id="des-hed">851 Followers</div></div>
+
+            <div>Punjabi King</div>
+            <p id="about">
+              Hirdesh Singh (born 15 March 1983), known by his professional name, Yo Yo Honey Singh or Honey Singh, is an Indian music composer, rapper, pop singer and film actor. He started out as a session and recording artist, and became a bhangra music producer.
+            </p>
+            <div><button id="btn">Play All</button><span style=" margin-left: 20px;">Follow</span></div>
+            <div style="margin-top: 1rem;">247 Tracks | 128 Albums</div>
+          </div>
+        </div>
+        <div class="playlist">
+          <div class="playlist-box-01">
+            <div class="num-decoration">01</div>
+            <div id="img1"></div>
+            <div class="align-center">
+                 <div class="song-title"><b>Mirage</b></div>
+                  <div>Else</div>
+            </div>
+            <div>
+                  <i class="material-icons" id="heart">favorite_border</i>
+            </div>
+            <div>
+              <span id="plus"><b>+</b></span>
+            </div>  
+          </div>
+          <div class="playlist-box-01">
+            <div class="num-decoration">02</div>
+            <div id="img1"></div>
+            <div class="align-center">
+                 <div class="song-title"><b>Mirage</b></div>
+                  <div>Else</div>
+            </div>
+            <div>
+                  <i class="material-icons" id="heart">favorite_border</i>
+            </div>
+            <div>
+              <span id="plus"><b>+</b></span>
+            </div>  
+          </div>
+          <div class="playlist-box-01">
+            <div class="num-decoration">03</div>
+            <div id="img1"></div>
+            <div class="align-center">
+                 <div class="song-title"><b>Mirage</b></div>
+                  <div>Else</div>
+            </div>
+            <div>
+                  <i class="material-icons" id="heart">favorite_border</i>
+            </div>
+            <div>
+              <span id="plus"><b>+</b></span>
+            </div>  
+          </div>
+          <div class="playlist-box-01">
+            <div class="num-decoration">04</div>
+            <div id="img1"></div>
+            <div class="align-center">
+                 <div class="song-title"><b>Mirage</b></div>
+                  <div>Else</div>
+            </div>
+            <div>
+                  <i class="material-icons" id="heart">favorite_border</i>
+            </div>
+            <div>
+              <span id="plus"><b>+</b></span>
+            </div>  
+          </div>
+          <div class="playlist-box-01">
+            <div class="num-decoration">05</div>
+            <div id="img1"></div>
+            <div class="align-center">
+                 <div class="song-title"><b>Mirage</b></div>
+                  <div>Else</div>
+            </div>
+            <div>
+                  <i class="material-icons" id="heart">favorite_border</i>
+            </div>
+            <div>
+              <span id="plus"><b>+</b></span>
+            </div>  
+          </div>
+          <div class="playlist-box-01">
+            <div class="num-decoration">06</div>
+            <div id="img1"></div>
+            <div class="align-center">
+                 <div class="song-title"><b>Mirage</b></div>
+                  <div>Else</div>
+            </div>
+            <div>
+                  <i class="material-icons" id="heart">favorite_border</i>
+            </div>
+            <div>
+              <span id="plus"><b>+</b></span>
+            </div>  
+          </div>
+          <div class="playlist-box-01">
+            <div class="num-decoration">07</div>
+            <div id="img1"></div>
+            <div class="align-center">
+                 <div class="song-title"><b>Mirage</b></div>
+                  <div>Else</div>
+            </div>
+            <div>
+                  <i class="material-icons" id="heart">favorite_border</i>
+            </div>
+            <div>
+              <span id="plus"><b>+</b></span>
+            </div>  
+          </div>
+          <div class="playlist-box-01">
+            <div class="num-decoration">08</div>
+            <div id="img1"></div>
+            <div class="align-center">
+                 <div class="song-title"><b>Mirage</b></div>
+                  <div>Else</div>
+            </div>
+            <div>
+                  <i class="material-icons" id="heart">favorite_border</i>
+            </div>
+            <div>
+              <span id="plus"><b>+</b></span>
+            </div>  
+          </div>
+        </div>
+      </section>
+      <aside class="aside-main-container">
+
+        <div class="aside-header">
+                  <div><h4><b>Similar Artist</b></h4></div>
+                  <div>
+                      <span id="queue-id">View All</span>
+                    
+                  </div>
+        </div>
+        <div class="aside-similar-artist">
+          <div class="aside-similar-artist-main">
+            <div class="similar-01">
+              <div class="similar-01-img"></div>
+              <div class="align-center">
+                      <div class="aside-song-title" style="font-size: 15px;">Mirage</div>
+                      <div>Else</div>
+              </div>
+              <div class="timer">
+                <div>
+                  ...
+                </div>
+                <div>
+                  4:44
+                </div>
+              </div>
+            </div>
+            <div class="similar-02">
+              <div class="similar-01-img"></div>
+              <div class="align-center">
+                      <div class="aside-song-title" style="font-size: 15px;">Mirage</div>
+                      <div>Else</div>
+              </div>
+              <div class="timer">
+                <div>
+                  ...
+                </div>
+                <div>
+                  4:44
+                </div>
+              </div>
+
+            </div>
+            <div class="similar-03">
+              <div class="similar-01-img"></div>
+              <div class="align-center">
+                      <div class="aside-song-title" style="font-size: 15px;">Mirage</div>
+                      <div>Else</div>
+              </div>
+              <div class="timer">
+                <div>
+                  ...
+                </div>
+                <div>
+                  4:44
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+        <div class="aside-recentaly-played">
+          <div class="aside-header">
+                  <div><h3><b>Recently Played</b></h3></div>
+                  <div>
+                      <span id="queue-id">View All</span>
+                    
+                  </div>
+
+          </div>
+                  <!-- <div class="aside-container-part1">
+                     <div class="num-decoration">01</div>
+                     <div class="aside-img flower"></div>
+                     <div class="align-center">
+                         <div class="aside-song-title">Mirage</div>
+                         <div>Else</div>
+                     </div>
+                 </div>
+                  <div>
+                      <i class="material-icons" id="heart">favorite_border</i>
+                  </div>
+              </div> -->
+              <div class="aside-container">
+                  <div class="aside-container-part1">
+                      <div class="num-decoration">01</div>
+                      <div class="aside-img smoke"></div>
+                      <div class="align-center">
+                          <div class="aside-song-title">Mirage</div>
+                          <div>Else</div>
+                      </div>
+                  </div>
+                  <div>
+                      <i class="material-icons" id="heart1">favorite_border</i>
+                  </div>
+              </div>
+              <div class="aside-container">
+                  <div class="aside-container-part1">
+                      <div class="num-decoration">02</div>
+                      <div class="aside-img flower"></div>
+                      <div class="align-center">
+                          <div class="aside-song-title">Mirage</div>
+                          <div>Else</div>
+                      </div>
+                  </div>
+                  <div>
+                      <i class="material-icons" id="heart1">favorite_border</i>
+                  </div>
+              </div>
+              <div class="aside-container">
+                  <div class="aside-container-part1">
+                      <div class="num-decoration">03</div>
+                      <div class="aside-img flower"></div>
+                      <div class="align-center">
+                          <div class="aside-song-title">Mirage</div>
+                          <div>Else</div>
+                      </div>
+                  </div>
+                  <div>
+                      <i class="material-icons" id="heart1">favorite_border</i>
+                  </div>
+              </div>
+              <div class="aside-container">
+                  <div class="aside-container-part1">
+                      <div class="num-decoration">04</div>
+                      <div class="aside-img travelling"></div>
+                      <div class="align-center">
+                          <div class="aside-song-title">Mirage</div>
+                          <div>Else</div>
+                      </div>
+                  </div>
+                  <div>
+                      <i class="material-icons" id="heart1">favorite_border</i>
+                  </div>
+              </div>
+              <div class="aside-container">
+                  <div class="aside-container-part1">
+                      <div class="num-decoration">05</div>
+                      <div class="aside-img roadtrip"></div>
+                      <div class="align-center">
+                          <div class="aside-song-title">Mirage</div>
+                          <div>Else</div>
+                      </div>
+                  </div>
+                  <div>
+                      <i class="material-icons" id="heart1">favorite_border</i>
+                  </div>
+              </div>
+        </div>
+      </aside>
+    </main>
+
+</body>
+</html>

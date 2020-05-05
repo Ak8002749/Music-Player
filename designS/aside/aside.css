@@ -1,0 +1,169 @@
+.aside-main-container{
+	display: flex;
+	flex-direction: column;
+	height: auto;
+	width: 30vw;
+}
+.aside-header{
+    width: 25vw;
+    height: 10vh;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+}
+#queue-id{
+    color: grey;
+    margin-top: 4px;
+    font-size: 12px;
+}
+.similar-01{
+	text-align: center;
+}
+.similar-01-img{
+    height: 15vh;
+    width: 10vw;
+    background-image: url(./../../image/main/popularArtist/arjit_pp.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 7px;
+}
+
+.aside-similar-arist{
+	display: flex;
+    flex-direction: column;
+    width: 27vw;
+    height: 60vh;
+    background-color:  #2e334b;
+    margin-right: 4rem;
+    margin-left: 2rem;
+    margin-top: 3rem;
+    text-align: center;
+    justify-content: space-between;
+}
+.timer{
+	
+	display: flex;
+	flex-direction: column;
+	margin-left: 7rem;
+}
+.aside-song-title{
+    font-size: 12px;
+    color: lightgray;
+    letter-spacing: 1px;
+    margin-top: 1rem;
+    margin-left: 10px;
+}
+
+.aside-song-title + div {
+    font-size: 12px;
+    color: lightgray;
+    margin-left: -14px;
+}
+
+.aside-similar-artist-header{
+	display: flex;
+	flex-direction: row;
+}
+.aside-similar-artist-main{
+	display: flex;
+	flex-direction: column;
+	height: 57vh;
+	width: auto;
+}
+.similar-01{
+	display: flex;
+	flex-direction: row;
+	height: 19vh;
+}
+.similar-02{
+	display: flex;
+	flex-direction: row;
+	height: 19vh
+}
+.similar-03{
+	display: flex;
+	flex-direction: row;
+	height: 19vh
+}
+/*.......................Recently Plared......................................*/
+.aside-recently-played{
+    display: flex;
+    flex-direction: column;
+    
+    width: 27vw;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.aside-container{
+    width: 25vw;
+    height: 10vh;
+    background-color: #0e102a;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.aside-img{
+    height: 8vh;
+    width: 5vw;
+    background-image: url(./../../image/main/popularArtist/arjit_pp.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 7px;
+}
+
+#heart1{
+    margin-top: 1.5rem;
+    color: grey;
+}
+
+.aside-container-part1{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.num-decoration{
+    font-size: 0.7rem;
+    color: lightgray;
+    margin-top: 1.5rem;
+    margin-right: 4px;
+}
+
+.aside-song-title{
+    font-size: 12px;
+    color: lightgray;
+    letter-spacing: 1px;
+    margin-top: 1rem;
+    margin-left: 5px;
+}
+
+.aside-song-title + div {
+    font-size: 12px;
+    color: lightgray;
+    margin-left: -14px;
+}
+
+.aside-header{
+    width: 25vw;
+    height: 10vh;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+}
+
+#arrow{
+    color: grey;
+    margin-top: 5px;
+    position: relative;
+    top: 7px;
+}
+
+#queue-id{
+    color: grey;
+    margin-top: 4px;
+    font-size: 12px;
+}
